@@ -50,16 +50,16 @@ from SaitamaRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SaitamaRobot.modules import ALL_MODULES
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaitamaRobot.modules.helper_funcs.misc import paginate_modules
-from SaitamaRobot.modules.helper_funcs.alternate import typing_action
-from SaitamaRobot.modules.helper_funcs.admin_rights import user_can_ban
-from SaitamaRobot.modules.helper_funcs.readable_time import get_readable_time
+from MydticRobot.modules import ALL_MODULES
+from MysticRobot.modules.helper_funcs.chat_status import is_user_admin
+from MysticRobot.modules.helper_funcs.misc import paginate_modules
+from MysticRobot.modules.helper_funcs.alternate import typing_action
+from MysticRobot.modules.helper_funcs.admin_rights import user_can_ban
+from MysticRobot.modules.helper_funcs.readable_time import get_readable_time
 
 
 PM_START_TEXT = """
-Hello there,The name's [𝙎𝙪𝙯𝙪𝙮𝙖](https://telegra.ph/file/5bcbee541234987308553.jpg)
+Hello there,The name's [Mystic](https://telegra.ph/file/5bcbee541234987308553.jpg)
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 ✪ Make sure you read *INFO* Section Below.✪ 
 """
